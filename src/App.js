@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div className="App">
-      <Board board={board} />
+      <Board board={board} onClick={null} />
     </div>
   );
 }
